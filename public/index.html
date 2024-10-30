@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Finch Sandbox API Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Finch Sandbox API Demo</h1>
+
+<label for="provider">Select Provider:</label>
+<select id="provider">
+  <option value="">-- Select --</option>
+  <option value="adp_run">ADP Run</option>
+  <option value="bamboo_hr">Bamboo HR</option>
+  <option value="gusto">Gusto</option>
+  <option value="paychex_flex">Paychex Flex</option>
+</select>
+
+<button onclick="redirectToFinchConnect()">Connect to Finch</button> 
+
+<div id="result" class="result"></div>
+
+<script src="app.js"></script> 
+
+</body>
+</html>
